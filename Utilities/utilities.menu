@@ -1,0 +1,10 @@
+MENU TITLE Utilities
+
+LABEL Main Menu
+	MENU LABEL ^Return to Main Menu
+	KERNEL menu.c32
+	APPEND pxelinux.cfg/default
+
+LABEL Memtest86+
+	MENU LABEL ^Memtest86+
+	KERNEL Utilities/Memtest86+/memtest86+
