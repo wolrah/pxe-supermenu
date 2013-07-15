@@ -10,3 +10,8 @@ LABEL LOCALDISK
 	MENU DEFAULT
 	LOCALBOOT 0
 	MENU LABEL Boot Local Disk
+
+LABEL Utilities
+	MENU LABEL ^Utilities
+	KERNEL menu.c32
+	APPEND Utilities/utilities.menu

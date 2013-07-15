@@ -8,3 +8,8 @@ LABEL Main Menu
 LABEL Memtest86+
 	MENU LABEL ^Memtest86+
 	KERNEL Utilities/Memtest86+/memtest86+
+
+LABEL ntpasswd
+	MENU LABEL ^ntpasswd
+	KERNEL Utilities/ntpasswd/vmlinuz
+	INITRD Utilities/ntpasswd/initrd.cgz,Utilities/ntpasswd/scsi.cgz
